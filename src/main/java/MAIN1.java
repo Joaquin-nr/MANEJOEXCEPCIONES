@@ -8,8 +8,9 @@ public class MAIN1 {
         System.out.println("Escribe la cadena de caracteres que desees ");
         String arg = leer.next();
         int num;
-        System.out.println("Escribe la pocicion que deseas evaluar ");
-        num = Integer.parseInt(leer.next());
+        //System.out.println("Escribe la pocicion que deseas evaluar ");
+        //num = Integer.parseInt(leer.next());
+        num=7;
         try {
             caracterEn.caracterEn(arg, num);
         }catch(Exception e){
